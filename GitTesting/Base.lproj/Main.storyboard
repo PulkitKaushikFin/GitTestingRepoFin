@@ -28,11 +28,19 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tM6-fl-3e0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqe-Qt-wPe">
+                                <rect key="frame" x="166.5" y="287.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="JS9-BY-nVy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1cW-v4-kv4"/>
                             <constraint firstItem="JS9-BY-nVy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HSh-L7-uOY"/>
+                            <constraint firstItem="Bqe-Qt-wPe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y7a-3V-cAO"/>
+                            <constraint firstItem="JS9-BY-nVy" firstAttribute="top" secondItem="Bqe-Qt-wPe" secondAttribute="bottom" constant="10" id="xfI-cW-reh"/>
                         </constraints>
                     </view>
                 </viewController>
